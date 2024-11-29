@@ -1,0 +1,7 @@
+﻿namespace TaskManagement.Communication.Requests;
+public class RequestCategoryJson
+{
+    public string Name { get; set; } = string.Empty;
+    public string? Description { get; set; } = string.Empty;
+ 
+}
