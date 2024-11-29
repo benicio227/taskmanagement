@@ -10,3 +10,24 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mape
 - **Testes de unidade**: Testes abrangentes com FluentAssertions para garantir a funcionalidade e a qualidade.
 - **RESTful API com Documentação Swagger**: Interface documentada que facilita a integração e o teste por parte dos desenvolvedores.
 - **Limitação de Tarefas Pendentes**: Para garantir uma gestão eficiente das tarefas, cada usuário pode ter, no máximo, 10 tarefas pendentes ao mesmo tempo. Ao tentar criar uma nova tarefa quando o limite é atingido, a API retorna uma mensagem de erro informando que o número máximo de tarefas pendentes foi alcançado. Isso ajuda a evitar sobrecarga e incentiva a conclusão das tarefas antes de adicionar novas.
+
+## Getting Started
+
+Para obter uma cópia local funcionando, siga estes passos simples.
+
+### Requisitos
+
+- Visual Studio versão 2022+ ou Visual Studio Code
+- Windows 10+ ou Linux/MacOS com .NET SDK instalado
+- MySql Server
+
+### Instalação
+
+1. Clone o repositório:
+
+    ```sh
+    git clone git@github.com:benicio227/taskmanagement.git
+    ```
+
+2. Preencha as informações no arquivo `appsettings.Development.json`.
+3. Execute a API
